@@ -9,3 +9,11 @@ def resta(a, b):
 
 def multiplicacion(a, b):
     return a * b
+
+def division(a, b):
+    if b == 0:
+        return "Error: No se puede dividir por cero"
+    return a / b
+
+def porcentaje(a, b):
+    return (a * b) / 100
