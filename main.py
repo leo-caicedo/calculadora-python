@@ -17,3 +17,8 @@ def division(a, b):
 
 def porcentaje(a, b):
     return (a * b) / 100
+
+def raiz_cuadrada(a):
+    if a < 0:
+        return "Error: No se puede calcular la raíz cuadrada de un número negativo"
+    return math.sqrt(a)
